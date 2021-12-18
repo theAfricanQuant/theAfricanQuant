@@ -10,7 +10,7 @@
 
 ### 🙋🏽‍♂️A little bit About Me
 
-<p> I a very passionate learner, a Financial Data Scientist & Quant, an ML practitioner and also a certified professional Energy Manager. I had my first degree in Electrical & Electronics Engineering and also a Masters in Financial Engineering. I am an aspiring digital nomad and content creator! Feel free to reach out to me on any of my handles above .
+<p> I am a very passionate learner, a Financial Data Scientist & Quant, an ML practitioner and also a certified professional Energy Manager. I had my first degree in Electrical & Electronics Engineering and also a Masters in Financial Engineering. I am an aspiring digital nomad and content creator! Feel free to reach out to me on any of my handles above .
 </p>
 
 ### 👨🏽‍💻Tech Stack
