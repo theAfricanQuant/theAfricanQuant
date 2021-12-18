@@ -1,16 +1,53 @@
-### Hi there 👋
+## Hi there! I'm Ricky.
 
-<!--
-**theAfricanQuant/theAfricanQuant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align='center'>
+<a href="mailto:ricky.macharm@gmail.com"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_email.png"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/theafricanquant/"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_linkedin.png"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/theAfricanQuant"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_twitter.png"></a>&nbsp;&nbsp;
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🙋🏽‍♂️A little bit About Me
+
+<p> I a very passionate learner, a Financial Data Scientist & Quant, an ML practitioner and also a certified professional Energy Manager. I had my first degree in Electrical & Electronics Engineering and also a Masters in Financial Engineering. I am an aspiring digital nomad and content creator! Feel free to reach out to me on any of my handles above .
+</p>
+
+### 👨🏽‍💻Tech Stack
+
+<p>
+Here are a few things I've picked up along my learning journey.
+</p>
+
+- 🗣 Python 𒑰 Machine Learning 𒑰 FastAI & Pytorch
+- 🗣 CNN 𒑰 NLP
+- ☁ Developing trading algorithms 𒑰 Backtesting Trading Strategies 𒑰 Deploying algorithms on the cloud
+- 🗣 Docker Containers
+
+### 🚧Current Projects
+
+<p>
+A lot of my projects are on algorithmic trading strategies are can be found on my github page. Below are some projects I decided to blog about or collaborations with others that I feel like sharing.
+
+- <a href="https://SisengAI.com">SisengAI</a> _My blog created with fastpages running on github pages and jekyll_
+- <a href="https://docs.google.com/spreadsheets/d/1pNDy2Nol-j1bJacxQvrGgwZXwLmo_H5SyZR76jd8LUk/edit?usp=sharing">Berom-English Corpus</a> _Developing a corpus of contemporary words and sentences for the Berom Lanaguage_
+- <a href="https://www.researchgate.net/publication/347235065_Participatory_Research_for_Low-resourced_Machine_Translation_A_Case_Study_in_African_Languages/citations?latestCitations=PB%3A355365230">Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</a> _A paper we co-authored on Low-resourced Machine Translationl_
+</p>
+
+### 🌱What I'm Learning
+
+Here are some things on my todo list.
+
+- _R & C# (I need to crush these once and for all)
+- _Python internals_ ♽
+- _TensorFlow & Keras_ 🤖
+- _many more stuff_ ⚙️
+
+
+### 📚 We could work toegther:
+
+
+
+---
+
+`Reach out to me on any of the social links above to talk about possible opportunities, mentorship, collaborations and everything in between!`
