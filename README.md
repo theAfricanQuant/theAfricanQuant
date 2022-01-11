@@ -58,4 +58,4 @@ Here are some things on my todo list.
 
 ---
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theAfricanQuant&repo=github-readme-stats)](https://github.com/theAfricanQuant/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theAfricanQuant&repo=github-readme-stats)](https://github.com/theAfricanQuant/)
