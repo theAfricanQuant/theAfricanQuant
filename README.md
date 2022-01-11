@@ -53,6 +53,11 @@ Here are some things on my todo list.
 >`Reach out to me on any of the social links above to talk about possible opportunities, mentorship, collaborations and everything in between!`
 
 ---
+<a href="https://www.linkedin.com/in/theafricanquant/"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_linkedin.png"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/theAfricanQuant"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_twitter.png"></a>&nbsp;&nbsp;
+</p>
+
+---
 
 [![theAfricanQuant's GitHub stats](https://github-readme-stats.vercel.app/api?username=theAfricanQuant&count_private=true&show_icons=true&theme=radical)](https://github.com/theAfricanQuant/github-readme-stats)
 
