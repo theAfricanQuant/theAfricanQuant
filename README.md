@@ -44,13 +44,14 @@ Here are some things on my todo list.
 - _many more stuff_ ⚙️
 
 
-### 📚 We could work toegther:
+### 📚 We could work together:
 
 
 
 ---
 
-`Reach out to me on any of the social links above to talk about possible opportunities, mentorship, collaborations and everything in between!`
+>`Reach out to me on any of the social links above to talk about possible opportunities, mentorship, collaborations and everything in between!`
 
+---
 
 [![theAfricanQuant's GitHub stats](https://github-readme-stats.vercel.app/api?username=theAfricanQuant&count_private=true)](https://github.com/theAfricanQuant/github-readme-stats)
