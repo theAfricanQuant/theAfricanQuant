@@ -54,4 +54,4 @@ Here are some things on my todo list.
 
 ---
 
-[![theAfricanQuant's GitHub stats](https://github-readme-stats.vercel.app/api?username=theAfricanQuant&count_private=true)](https://github.com/theAfricanQuant/github-readme-stats)
+[![theAfricanQuant's GitHub stats](https://github-readme-stats.vercel.app/api?username=theAfricanQuant&count_private=true&show_icons=true&theme=radical)](https://github.com/theAfricanQuant/github-readme-stats)
