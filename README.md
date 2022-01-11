@@ -1,4 +1,4 @@
-## Hi there! I'm Ricky.
+## Hello there! My name is Ricky.
 
 <p align='center'>
 <a href="mailto:ricky.macharm@gmail.com"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_email.png"></a>&nbsp;&nbsp;
