@@ -1,7 +1,7 @@
 ## Hello there! My name is Ricky. Welcome to my GitHub.
 
 <p align='center'>
-<a href="mailto:ricky.macharm@gmail.com"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_email.png"></a>&nbsp;&nbsp;
+<a href="mailto:ricky.macharm@sisengai.com"><img height="30" src="https://raw.githubusercontent.com/iansmathew/iansmathew/master/assets/icon_email.png"></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/channel/UCiGb6zu-TfJk8ixc-oKkCcA/featured"><img src="https://res.cloudinary.com/importdata/image/upload/v1595012354/yt_logo_jjgys4.png" alt="drawing" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://medium.com/@theAfricanQuant"><img src="https://res.cloudinary.com/importdata/image/upload/v1595012354/medium_mono_hoz0z5.png" alt="drawing" width="35"/>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/theAfricanQuant"><img src="https://res.cloudinary.com/importdata/image/upload/v1595012924/Twitter_Logo_Blue_gbtagu.png" alt="drawing" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;
