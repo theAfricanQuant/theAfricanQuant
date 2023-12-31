@@ -40,7 +40,7 @@ A lot of my projects are on algorithmic trading strategies are can be found on m
 
 Here are some things on my todo list.
 
-- _R & C# (I need to crush these once and for all)_
+- _Rust & Zig (I need to crush these once and for all)_
 - _Python internals_ ♽
 - _TensorFlow & Keras_ 🤖
 - _many more stuff_ ⚙️
