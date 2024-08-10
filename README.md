@@ -36,6 +36,7 @@ A lot of my projects are on algorithmic trading strategies are can be found on m
 - <a href="https://www.researchgate.net/publication/347235065_Participatory_Research_for_Low-resourced_Machine_Translation_A_Case_Study_in_African_Languages/citations?latestCitations=PB%3A355365230">Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</a> _A paper we co-authored on Low-resourced Machine Translation_
 - <a href="https://arxiv.org/abs/2311.09828" target="_blank">AfriMTE and AfriCOMET: Empowering COMET to Embrace Under-resourced African Languages</a>
 - <a href="https://www.sisengai.com/spotify-dashboard/dashboard.html">Spotify Dashboard</a> _A dashboard that curates some hit songs on Spotify_
+- <a href="https://www.sisengai.com/Alphavantage_Dashboard/Alphavantage_Dashboard.html">Donchian Channel Breakout Dashboard</a> _A dashboard that shows Donchian Breakouts on some selected stocks. Alphavantage API was used to get the stocks for display here_
 
 </p>
 
@@ -43,9 +44,9 @@ A lot of my projects are on algorithmic trading strategies are can be found on m
 
 Here are some things on my todo list.
 
-- _Rust & Zig (I need to crush these once and for all)_
+- _Working with Dashboards in Python (with some R sometimes)_ 🤖
+- _Revisiting Pytorch for Computer Vision again after a while_ 🤖
 - _Python internals_ ♽
-- _TensorFlow & Keras_ 🤖
 - _many more stuff_ ⚙️
 
 
