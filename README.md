@@ -26,15 +26,16 @@ Here are a few things I've picked up along my learning journey.
 - ☁ Developing trading algorithms 𒑰 Backtesting Trading Strategies 𒑰 Deploying algorithms on the cloud
 - 🗣 Docker Containers
 
-### 🚧Current Projects
+### 🚧Projects
 
 <p>
 A lot of my projects are on algorithmic trading strategies are can be found on my github page. Below are some projects I decided to blog about or collaborations with others that I feel like sharing.
 
-- <a href="https://SisengAI.com">SisengAI</a> _My blog created with fastpages running on github pages and jekyll_
+- <a href="https://SisengAI.com">SisengAI</a> _My blog created with Quarto running on github pages_
 - <a href="https://docs.google.com/spreadsheets/d/1pNDy2Nol-j1bJacxQvrGgwZXwLmo_H5SyZR76jd8LUk/edit?usp=sharing">Berom-English Corpus</a> _Developing a corpus of contemporary words and sentences for the Berom Lanaguage_
 - <a href="https://www.researchgate.net/publication/347235065_Participatory_Research_for_Low-resourced_Machine_Translation_A_Case_Study_in_African_Languages/citations?latestCitations=PB%3A355365230">Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages</a> _A paper we co-authored on Low-resourced Machine Translation_
 - <a href="https://arxiv.org/abs/2311.09828" target="_blank">AfriMTE and AfriCOMET: Empowering COMET to Embrace Under-resourced African Languages</a>
+- <a href="https://www.sisengai.com/spotify-dashboard/dashboard.html">Spotify Dashboard</a> _A dashboard that curates some hit songs on Spotify_
 
 </p>
 
