@@ -1,3 +1,5 @@
+![Terminal Header](./img/header.svg?v=6)
+
 ## Hello there! My name is Ricky. Welcome to my GitHub.
 
 <p align='center'>
