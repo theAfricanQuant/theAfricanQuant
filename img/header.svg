@@ -1,14 +1,14 @@
-<svg fill="none" viewBox="0 0 800 260" width="800" height="260" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 360" width="800" height="360" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 * { margin: 0; padding: 0; box-sizing: border-box; }
                 .container {
                     width: 800px;
-                    height: 260px;
+                    height: 360px;
                     background: linear-gradient(135deg, #101820 0%, #1F3A5F 100%);
                     border-radius: 10px;
-                    padding: 20px 30px;
+                    padding: 24px 32px;
                     font-family: ui-monospace, 'SF Mono', Monaco, 'Cascadia Code', 'Courier New', monospace;
                 }
                 .terminal-header {
@@ -18,13 +18,9 @@
                     padding: 8px;
                     background-color: rgba(0, 0, 0, 0.3);
                     border-radius: 8px;
-                    margin-bottom: 20px;
+                    margin-bottom: 18px;
                 }
-                .circle {
-                    width: 12px;
-                    height: 12px;
-                    border-radius: 50%;
-                }
+                .circle { width: 12px; height: 12px; border-radius: 50%; }
                 .red { background: #FF5F56; }
                 .yellow { background: #FFBD2E; }
                 .green { background: #27C93F; }
@@ -33,19 +29,13 @@
                     display: flex;
                     align-items: center;
                     gap: 12px;
-                    margin-bottom: 16px;
+                    margin-bottom: 14px;
                     font-size: 20px;
                     opacity: 0;
                     animation: fadeIn 0.3s ease-out forwards;
                 }
-                .arrow {
-                    color: #FF6B35;
-                    font-weight: bold;
-                }
-                .spinner {
-                    color: #FF6B35;
-                    font-size: 18px;
-                }
+                .arrow { color: #FF6B35; font-weight: bold; }
+                .spinner { color: #FF6B35; font-size: 18px; }
                 .spinner::before {
                     content: '⣾';
                     animation: rotate 1.2s linear infinite, complete 0s 5.0s forwards;
@@ -71,20 +61,34 @@
                     white-space: nowrap;
                     width: 0;
                     animation:
-                        typing 1s steps(6) 0.3s forwards,
+                        typing 1s steps(10) 0.3s forwards,
                         blink 0.75s step-end 0s 2,
                         hideCursor 0s 1.5s forwards;
                 }
                 @keyframes typing {
                     from { width: 0; }
-                    to { width: 7.5em; }
+                    to { width: 11em; }
                 }
-                @keyframes blink {
-                    50% { border-color: transparent; }
+                @keyframes blink { 50% { border-color: transparent; } }
+                @keyframes hideCursor { to { border-color: transparent; } }
+
+                .command2 {
+                    color: #FFD9CC;
+                    overflow: hidden;
+                    border-right: 2px solid #FFD9CC;
+                    white-space: nowrap;
+                    width: 0;
+                    animation:
+                        typing2 0.8s steps(12) 4.6s forwards,
+                        blink2 0.75s step-end 4.6s 2,
+                        hideCursor2 0s 6.0s forwards;
                 }
-                @keyframes hideCursor {
-                    to { border-color: transparent; }
+                @keyframes typing2 {
+                    from { width: 0; }
+                    to { width: 15em; }
                 }
+                @keyframes blink2 { 50% { border-color: transparent; } }
+                @keyframes hideCursor2 { to { border-color: transparent; } }
 
                 .output {
                     display: flex;
@@ -92,66 +96,42 @@
                     gap: 8px;
                     font-size: 16px;
                 }
-                .line {
-                    display: flex;
-                    gap: 10px;
-                    align-items: flex-start;
-                    opacity: 0;
-                }
-                .line:nth-child(1) {
-                    animation: fadeInUp 0.5s ease-out 1.3s forwards;
-                }
-                .line:nth-child(2) {
-                    animation: fadeInUp 0.5s ease-out 1.8s forwards;
-                }
-                .line:nth-child(3) {
-                    animation: fadeInUp 0.5s ease-out 4.5s forwards;
-                }
-                .bullet {
-                    color: #FF6B35;
-                    flex-shrink: 0;
-                }
-                .text {
-                    color: #B8B8B8;
-                    line-height: 1.6;
-                }
-                .highlight {
-                    color: #FFD9CC;
-                    font-weight: 500;
-                }
+                .line { display: flex; gap: 10px; align-items: flex-start; opacity: 0; }
+                .line:nth-child(1) { animation: fadeInUp 0.5s ease-out 1.3s forwards; }
+                .line:nth-child(2) { animation: fadeInUp 0.5s ease-out 1.8s forwards; }
+                .line:nth-child(3) { animation: fadeInUp 0.5s ease-out 2.3s forwards; }
+                .line:nth-child(4) { animation: fadeInUp 0.5s ease-out 6.4s forwards; }
+                .line:nth-child(5) { animation: fadeInUp 0.5s ease-out 6.9s forwards; }
+                .bullet { color: #FF6B35; flex-shrink: 0; }
+                .text { color: #B8B8B8; line-height: 1.6; }
+                .highlight { color: #FFD9CC; font-weight: 500; }
                 .typing-line {
                     overflow: hidden;
                     white-space: nowrap;
                     width: 0;
-                    animation: typeLine 2.5s steps(60) 2.0s forwards;
+                    animation: typeLine 2.5s steps(70) 2.0s forwards;
                 }
-                @keyframes typeLine {
-                    to { width: 100%; }
+                @keyframes typeLine { to { width: 100%; } }
+                .stack { display: flex; flex-wrap: wrap; gap: 8px; }
+                .tag {
+                    font-size: 13px;
+                    color: #101820;
+                    background: #FFD9CC;
+                    padding: 3px 10px;
+                    border-radius: 4px;
+                    font-weight: 600;
                 }
-                .socials {
-                    display: flex;
-                    gap: 20px;
-                    flex-wrap: wrap;
+                .tag-alt { background: #6FA8DC; }
+                .cmd2-line {
+                    display: flex; align-items: center; gap: 12px;
+                    font-size: 20px; margin: 18px 0 14px;
+                    opacity: 0;
+                    animation: fadeIn 0.3s ease-out 4.6s forwards;
                 }
-                a {
-                    color: #FFD9CC;
-                    text-decoration: none;
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
-                @keyframes fadeIn {
-                    to { opacity: 1; }
-                }
+                @keyframes fadeIn { to { opacity: 1; } }
                 @keyframes fadeInUp {
-                    from {
-                        opacity: 0;
-                        transform: translateY(10px);
-                    }
-                    to {
-                        opacity: 1;
-                        transform: translateY(0);
-                    }
+                    from { opacity: 0; transform: translateY(10px); }
+                    to { opacity: 1; transform: translateY(0); }
                 }
             </style>
             <div class="container">
@@ -168,24 +148,44 @@
                 <div class="output">
                     <div class="line">
                         <span class="bullet">⏺</span>
-                        <span class="text">
-                            <span class="highlight">Ricky Macharm</span> – Financial Data Scientist × Quant
+                        <span class="text"><span class="highlight">Ricky Macharm</span> – Senior Data Engineer × AI/ML Consultant</span>
+                    </div>
+                    <div class="line">
+                        <span class="bullet">⏺</span>
+                        <span class="text typing-line">Speedykom GmbH · Husika TTS · SpeedyMesh · WorldQuant University</span>
+                    </div>
+                    <div class="line">
+                        <span class="bullet">⏺</span>
+                        <span class="text">Python · Rust · PyO3 · TypeScript · PyTorch · SQL · Docker · Quarto</span>
+                    </div>
+                </div>
+                <div class="cmd2-line">
+                    <span class="arrow">&gt;</span>
+                    <span class="command2">cat stack.txt</span>
+                </div>
+                <div class="output">
+                    <div class="line">
+                        <span class="bullet">⏺</span>
+                        <span class="text stack">
+                            <span class="tag">Python</span>
+                            <span class="tag tag-alt">Rust</span>
+                            <span class="tag">PyO3</span>
+                            <span class="tag tag-alt">TypeScript</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag tag-alt">Whisper</span>
+                            <span class="tag">FastAI</span>
+                            <span class="tag tag-alt">DuckDB</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag tag-alt">Docker</span>
+                            <span class="tag">Quarto</span>
+                            <span class="tag tag-alt">Jupyter</span>
+                            <span class="tag">Supabase</span>
+                            <span class="tag tag-alt">Qdrant</span>
                         </span>
                     </div>
                     <div class="line">
                         <span class="bullet">⏺</span>
-                        <span class="text typing-line">Building • Demoing • Shipping trading algorithms &amp; AI agent workflows</span>
-                    </div>
-                    <div class="line">
-                        <span class="bullet">⏺</span>
-                        <span class="text socials">
-                            <a href="https://www.youtube.com/channel/UCiGb6zu-TfJk8ixc-oKkCcA" target="_blank" class="highlight">YouTube</a>
-                            <a href="https://medium.com/@theAfricanQuant" target="_blank" class="highlight">Medium</a>
-                            <a href="https://www.linkedin.com/in/theafricanquant/" target="_blank" class="highlight">LinkedIn</a>
-                            <a href="https://twitter.com/theAfricanQuant" target="_blank" class="highlight">X</a>
-                            <a href="https://www.kaggle.com/theAfricanQuant" target="_blank" class="highlight">Kaggle</a>
-                            <a href="mailto:ricky.macharm@sisengai.com" target="_blank" class="highlight">Email</a>
-                        </span>
+                        <span class="text">ASR/TTS · LLM apps · RAG · backtesting · low-resource NLP</span>
                     </div>
                 </div>
             </div>
